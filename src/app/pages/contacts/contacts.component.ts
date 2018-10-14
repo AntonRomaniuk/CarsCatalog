@@ -23,13 +23,18 @@ export class ContactsComponent implements OnInit {
   ];
 
   skills = [
+
+    {
+      title: 'Work Experience',
+      value: 'Advert Mobile; Java/Front-End Developer 2016-...'
+    },
     {
       title: 'LANGUAGES/ TECHNOLOGIES',
       value: ' Java, Rest, JDBC, Angular 5, WebSockets, JSF,Typescript, Redux, jQuery, Javascript, HTML, SCSS, CSS'
     },
     {
       title: 'Database',
-      value: ' MySQL;'
+      value: ' MySQL'
     },
     {
       title: 'Development tools',
