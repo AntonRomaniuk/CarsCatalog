@@ -1,0 +1,9 @@
+.mat-card {
+  margin: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+  .mat-card-content {
+    text-align: center;
+    font-size: 25px;
+  }
+}

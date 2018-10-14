@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "name": "Suzuki Celerio",
+    "image": "/assets/images/0.jpeg",
+    "slogan": "Small Car Loaded with Big Ideas",
+    "desc": "Here it is. Larger than life and ready to live. Introducing the new Celerio, a small car that is creating big standards. Loaded with Suzuki small-car know-how, but with space for more, Celerio beckons for a drive in the city.Climb aboard and experience all that's new.",
+    "engine": "Petrol 1.0L",
+    "fuel_tank_capacity": "35 L",
+    "engine_type": "K10B 3 cylinders",
+    "fuel_consumption": "4.3 litres/100km"
+  },
+  {
+    "id": 1,
+    "name": "Suzuki SX-4 S-CROSS",
+    "image": "/assets/images/1.jpeg",
+    "slogan": "Define your destination.",
+    "desc": "Let your impulses run free – with a real anywhere-anytime adventurer:The new SX4 S-CROSS is all about greater prospects on four wheels.Offering all-terrain driving pleasure, next-generation performance and a novel design that looks as bold as a crossover can be.Wherever your imagination carries you, with the new SX4 S-CROSS every choice is perfect. Define your destination.",
+    "engine": "Petrol 1.4L",
+    "fuel_tank_capacity": "47 L",
+    "engine_type": "K10C BOOSTERJET 4 cylinders",
+    "fuel_consumption": "4.8 litres/100km"
+  },
+  {
+    "id": 2,
+    "name": "Suzuki Grand Vitara",
+    "image": "/assets/images/2.jpeg",
+    "slogan": "Nobody But Vitara",
+    "desc": "There are places in the world only the Jimny can go.    Overcome muddy pits, manoeuvre through dense woods, conquer massive rocks with this small off-roader that knows what true toughness is Chosen time and time again by those who share its spirit. The Jimny — always shaping new frontiers.",
+
+    "engine": "Petrol 2.4L",
+    "fuel_tank_capacity": "55 L",
+    "engine_type": "M16A (1,586)  ",
+    "fuel_consumption": "5.1 litres/100km"
+  },
+  {
+    "id": 3,
+    "name": "Nissan LEAF",
+    "image": "/assets/images/3.jpg",
+    "slogan": "TIME TO PLAY",
+    "desc": "Projects, milestones, targets – adult life is full of responsibilities. But beyond meetings and schedules a deeper force lies within all of us: the inner child, ready to come out and play! Tickle it every day – with on- and off-road performance,exciting design and cutting-edge technologies.",
+    "engine": "Petrol 1.2L",
+    "fuel_tank_capacity": "47 L",
+    "engine_type": "K10C-DITC 3 cylinders  ",
+    "fuel_consumption": "3.7 litres/100km"
+  },
+  {
+    "id": 4,
+    "name": "Mitsubishi OUTLANDER ",
+    "image": "/assets/images/4.jpg",
+    "slogan": "MADE FOR ADVENTURE",
+    "desc": "With ample cargo area, comfortable seating, automatic climate control and more, you'll love everything about Outlander Sport, inside and out. ",
+    "engine": "Petrol 1.5L",
+    "fuel_tank_capacity": "46 L",
+    "engine_type": "K10 3 cylinders  ",
+    "fuel_consumption": "4.9 litres/100km"
+  },
+  {
+    "id": 5,
+    "name": "Subaru FORESTER",
+    "image": "/assets/images/5.jpg",
+    "slogan": "Safety for all",
+    "desc": "EyeSight monitors traffic movement, optimizes cruise control, and warns you when you're swaying outside your lane. The Automatic Pre-Collision Braking feature can even apply full braking force and bring you to a complete stop in emergency situations. And with Lane Keep Assist, it can even help you steer back into your lane. Another way Subaru designs vehicles with your safety in mind.",
+    "engine": "Petrol 1.3L",
+    "fuel_tank_capacity": "51 L",
+    "engine_type": "K10C",
+    "fuel_consumption": "4.2 litres/100km"
+  },
+  {
+    "id": 6,
+    "name": "Subaru Ascent",
+    "image": "/assets/images/6.jpg",
+    "slogan": "The biggest Subaru ever",
+    "desc": "With flexible seating for up to eight passengers, standard Symmetrical All-Wheel Drive, and up to 5,000 pounds of towing capacity, the family-sized 2019 Ascent makes every day an adventure.",
+    "engine": "Petrol 1.7L",
+    "fuel_tank_capacity": "57 L",
+    "engine_type": "K10C",
+    "fuel_consumption": "4.5 litres/100km"
+  }
+]

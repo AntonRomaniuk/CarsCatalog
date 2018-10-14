@@ -1,0 +1,22 @@
+<div *ngIf="(cars$ | async) as cars" class="cars">
+
+  <mat-card *ngFor="let car of cars" class="example-card" (click)="onCarSelect(car)">
+    <div class="container">
+      <img mat-card-image class="image" alt="{{car.name}}" src="{{car.image}}">
+      <div class="middle">
+        <div class="text">MORE</div>
+      </div>
+    </div>
+    <mat-card-content>
+      <span>{{car.name | uppercase}} </span>
+    </mat-card-content>
+  </mat-card>
+  <mat-progress-spinner *ngIf="cars.length===0"
+                        class="example-margin"
+                        [color]="'primary'"
+                        [mode]="'indeterminate'"
+                        [value]="50"
+                        [diameter]="60">
+  </mat-progress-spinner>
+</div>
+

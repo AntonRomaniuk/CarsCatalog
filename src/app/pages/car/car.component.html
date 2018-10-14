@@ -1,0 +1,23 @@
+<div *ngIf="(car$ | async) as car" class="car">
+  <div class="image">
+    <img src="{{car.image}}">
+  </div>
+  <div class="info">
+    <div class="slogan">
+      {{car.slogan | uppercase}}
+    </div>
+    <div class="desc">
+      {{car.desc}}
+    </div>
+    <div class="param-list">
+      <div class="parameter" *ngFor="let param of params">
+       <span>
+         {{param.name}}
+       </span>
+        <span>
+        {{param.value}}
+       </span>
+      </div>
+    </div>
+  </div>
+</div>

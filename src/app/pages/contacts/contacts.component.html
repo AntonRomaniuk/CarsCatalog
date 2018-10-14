@@ -1,0 +1,28 @@
+<div class="personal-information">
+  <img src="../../../assets/images/avatar.png" alt="anton_romaniuk"/>
+  <div class="contacts">
+    <div class="name">
+      ANTON ROMANIUK
+    </div>
+    <div class="param-list">
+      <div class="parameter" *ngFor="let contact of contacts">
+       <span>
+         {{contact.contact}}
+       </span>
+        <span>
+        {{contact.value}}
+       </span>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="section" *ngFor="let skill of skills">
+  <div class="title">
+    <span>{{skill.title | uppercase}}</span>
+    <mat-divider></mat-divider>
+  </div>
+  <div class="skills">
+    {{skill.value}}
+  </div>
+</div>

@@ -1,0 +1,36 @@
+:host {
+  position: absolute;
+  .car {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+    .info {
+      max-width: 450px;
+      .slogan {
+        font-size: 40px;
+        font-family: Roboto-Bold, sans-serif;
+      }
+      .desc {
+        margin-top: 10px;
+      }
+    }
+    .image {
+      img {
+        width: 500px;
+        height: 400px;
+        @media  only screen and (max-width: 1000px) {
+          width: 300px;
+          height: 250px;
+        }
+      }
+
+    }
+    .info, img {
+      margin: 10px;
+    }
+
+  }
+}
